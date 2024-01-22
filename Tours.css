@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 25px;
+    border: 7px dashed rgb(1, 17, 160);
+    margin: 6vh;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
